@@ -1,5 +1,5 @@
 import './App.css';
-import ListCards from './components/cards/ListCards';
+import ListCards from './components/cards/ListCards'; 
 import Navbar from './components/navbar/navbar';
 
 function App() {
@@ -7,9 +7,9 @@ function App() {
     <div className="App">
       <Navbar/>
       <ListCards/>
+
     </div>
   );
 }
 
 export default App;
-
